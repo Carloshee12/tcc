@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+input[type="file"]{
+  display: none;
+}
+
+label{
+  padding: 1em;
+  width: 1000px;
+  margin: 2em auto;
+  background-color: #003087;
+  color: white;
+  text-transform: capitalize;
+  display: block;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  cursor: pointer;
+  transition: .10s;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+label:hover{
+  background: #003087;;
+  color: white;
+  transform: translateY(-10px);
+}
+
+
+.button-container{
+  padding: 0.2em;
+  width: 500px;
+  margin: 0.5em 0.5em;
+  background-color: #17a504;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  cursor: pointer;
+  transition: .10s;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+.remove-button{
+  padding: 0.2em;
+  width: 500px;
+  background-color: #ff0000;
+  color: white;
+  text-transform: capitalize;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  cursor: pointer;
+  transition: .10s;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+img {
+  max-width: 400px;
+  max-height: 300px;
+}
