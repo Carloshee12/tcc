@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+:root {
+  --white: #FFF;
+  --whitesmoke: #F9F9F9;
+  --light-grey: #ECECEC;
+  --grey: #C4C4C4;
+  --medium-grey: #a7a7a762;
+  --deep-grey: #343434;
+  --black: #000000;
+  --blue: #1B77F3;
+  --red: #CF3C3F;
+}
+
+.ionTitle {
+  text-align: center;
+}
+
+.action-sheet-ios{
+  text-align:center;
+  justify-content: center;
+  color: var(--whitesmoke);
+}
+
+IonTextarea{
+    display: block;
+    padding: auto;
+    width: auto;
+    margin: 0px 0.1em;
+}
+.IonText h1{
+    text-align: center;
+    justify-content: center;
+    color: var(--whitesmoke);
+    margin-top: 0em;
+}
+
+.IonText h3{
+    text-align: left;
+}
+.IonText p{
+  text-align: justify;
+}
+
+.Sobre_desenvolvedores{
+    text-align: center;
+    background-color: #003087;
+    width: 90%;
+    border-radius: 15px;
+    font-size: 0.9em;
+    padding: 1em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.Objetivo{
+    text-align: center;
+    background-color: #003087;
+    width: 90%;
+    border-radius: 15px;
+    font-size: 0.9em;
+    padding: 1em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}

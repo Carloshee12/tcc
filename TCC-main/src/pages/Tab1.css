@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+* {
+  
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Slide {
+    height: auto;
+    text-align: center;
+    background-color: #003087;
+    border-radius: 15px;
+    font-size: 0.9em;
+    padding: 1em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    
+}
+.img-manual{
+    max-width: 25em;
+    max-height: 20em;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: 10px auto;
+}
+.img-manual-texto{
+  max-width: 45em;
+  max-height: 60em;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin: 4px auto;
+}
+.img-manual-mao{
+  max-width: 6em;
+  max-height: 6em;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin: 10px auto;
+}
+.Content{
+  position: relative;
+    border-width:2px;
+    max-width: 50%;
+    left:0px;
+    float: left;
+    height: 130em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+.arraste{
+  font-size: 0.7em;
+}

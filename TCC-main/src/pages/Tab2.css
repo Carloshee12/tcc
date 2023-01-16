@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+:root {
+  --white: #FFF;
+  --whitesmoke: #F9F9F9;
+  --light-grey: #ECECEC;
+  --grey: #C4C4C4;
+  --medium-grey: #A7A7A7;
+  --deep-grey: #343434;
+  --black: #000000;
+  --blue: #1B77F3;
+  --red: #CF3C3F;
+}
+
+.funcao {
+    text-align: center;
+    font-size: 0.9em;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+
+.ionTitle {
+  text-align: center;
+}
+
+.action-sheet-ios{
+  text-align:center;
+  justify-content: center;
+  width: 100%;
+  color: var(--whitesmoke);
+}
+.titulo {
+  color: #003087;
+  background-color: #003087;
+  justify-content: center;
+  text-align: center;
+}
+.OCR{
+  text-align: center;
+  background-color: var(--deep-grey);
+  border-radius: 5px;
+  font-size: 0.9em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 100px 100px;
+  justify-content: center;  
+}
